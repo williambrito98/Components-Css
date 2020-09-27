@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <script src="./script.js"></script>
+    <title>Side bar</title>
+</head>
+
+<body>
+    <div class="l-navbar" id="navbar">
+        <nav class="nav">
+            <div>
+                <div class="nav-brand">
+                    <i class="fas fa-bars nav-toggle" id="nav-toggle"></i>
+                    <a href="#" class="nav-logo">SPH</a>
+                </div>
+                <div class="nav-list">
+                    <a href="#" class="nav-link active">
+                        <i class="fas fa-home nav-icon"></i>
+                        <span class="nav-name">Dashboard</span>
+                    </a>
+                    <a href="#" class="nav-link">
+                        <i class="fab fa-facebook-messenger nav-icon"></i>
+                        <span class="nav-name">Messenger</span>
+                    </a>
+                    <div class="nav-link collapse">
+                        <i class="far fa-folder nav-icon"></i>
+                        <span class="nav-name">Projects</span>
+
+                        <i class="fas fa-chevron-down collapse-link"></i>
+
+                        <ul class="collapse-menu">
+                            <a href="" class="collapse-sublink">Data</a>
+                            <a href="" class="collapse-sublink">Group</a>
+                            <a href="" class="collapse-sublink">Member</a>
+                        </ul>
+
+                    </div>
+                    <a href="#" class="nav-link">
+                        <i class="fas fa-users nav-icon"></i>
+                        <span class="nav-name">Users</span>
+                    </a>
+                </div>
+            </div>
+            <a href="#" class="nav-link">
+                <i class="fas fa-sign-out-alt nav-icon"></i>
+                <span class="nav-name">Log Out</span>
+            </a>
+
+        </nav>
+    </div>
+
+
+</body>
+
+</html>
